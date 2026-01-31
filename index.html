@@ -17,6 +17,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#research">Research</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -174,7 +175,41 @@
         </div>
     </section>
 
-    <section id="projects" class="section section-alt">
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+            <div class="research-list">
+                <div class="research-card">
+                    <div class="research-header">
+                        <h3>Multi-Step Sign Language Translation Using Large Language Models</h3>
+                        <span class="research-status">Unpublished</span>
+                    </div>
+                    <p class="research-authors"><strong>Muhammad Kassim Balogun</strong></p>
+                    <p class="research-abstract">
+                        This paper explores multi-step Sign Language Translation (SLT) using Large Language Models (LLMs) 
+                        and Formal SignWriting (FSW), a system of writing sign languages for the intermediate step between 
+                        the written form of both languages. We use LLMs with decoder-only architecture to learn the mappings 
+                        between FSW notation and English, utilizing Supervised Fine-Tuning (SFT) with a combination of 
+                        Contrastive Policy Optimization (CPO) and Simple Preference Optimization (SimPO) on the SignBank+ dataset.
+                    </p>
+                    <div class="research-metrics">
+                        <span class="metric"><strong>BLEU:</strong> 26.03 (FSW→Text)</span>
+                        <span class="metric"><strong>BLEU:</strong> 18.07 (Text→FSW)</span>
+                        <span class="metric"><strong>chrF2++:</strong> 55.44 / 37.38</span>
+                    </div>
+                    <div class="research-tags">
+                        <span>Sign Language Translation</span>
+                        <span>LLM</span>
+                        <span>NLP</span>
+                        <span>Low-Resource MT</span>
+                    </div>
+                    <a href="sign-language-translation-llm.pdf" class="btn btn-secondary" target="_blank">📄 Read Paper (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
